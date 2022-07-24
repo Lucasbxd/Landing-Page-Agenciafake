@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", cursive;
+}
+
+.header {
+  position: fixed;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0px 10% 0px 10%;
+}
+.header .header-logo {
+  color: #180F4A;
+  font-family: "Lobster", Arial, sans-serif;
+  font-size: 33px;
+  cursor: pointer;
+}
+.header .header-logo span {
+  color: #FF2978;
+}
+.header .header-logo:hover span {
+  color: #180F4A;
+}
+.header .navbar a {
+  color: #180F4A;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-top: 4px solid transparent;
+}
+.header .navbar a:hover {
+  color: #FF2978;
+  border-top: 4px solid #180F4A;
+}
+.header .navbar #contactbtn {
+  border: none;
+  padding: 10px 25px;
+  background-color: #180F4A;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+.header .navbar #contactbtn:hover {
+  background-color: #FF2978;
+}
+
+.headline {
+  padding-top: 100px;
+  display: flex;
+  margin: 0px 10% 0px 10%;
+  align-items: center;
+}
+.headline .text-content {
+  width: 50%;
+}
+.headline .text-content h2, .headline .text-content p {
+  color: #180F4A;
+  font-family: "Roboto", Arial, cursive;
+}
+.headline .text-content h2:nth-of-type(1) {
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+.headline .text-content h2:nth-of-type(2) {
+  font-size: 80px;
+}
+.headline .text-content p {
+  color: gray;
+  text-align: justify;
+  padding: 15px 0;
+}
+.headline .text-content a {
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px;
+  background-color: #FF2978;
+}
+.headline .text-content a:hover {
+  background-color: #180F4A;
+}
+.headline .img-content {
+  width: 50%;
+  text-align: center;
+}
+.headline .img-content img {
+  display: inline-block;
+}
+
+.main-content {
+  margin: 170px 10% 200px 10%;
+}
+.main-content h1 {
+  text-align: center;
+  font-family: "Lobster", Arial, sans-serif;
+  font-size: 50px;
+  color: #180F4A;
+  padding-bottom: 100px;
+}
+.main-content .cards {
+  display: flex;
+  gap: 0px 50px;
+}
+.main-content .cards .cards-content {
+  border: 1px solid #FF2978;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.main-content .cards .cards-content img, .main-content .cards .cards-content p {
+  padding-bottom: 20px;
+}
+.main-content .cards .cards-content p:nth-of-type(1) {
+  font-weight: bold;
+}
+.main-content .cards .cards-content .ocult-text {
+  display: none;
+}
+.main-content .cards .cards-content:hover {
+  background-color: #FF2978;
+}
+.main-content .cards .cards-content:hover .ocult-text {
+  display: block;
+}
+.main-content .cards .cards-content:hover p, .main-content .cards .cards-content:hover img {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 400px;
+  border-top: 4px solid #FF2978;
+  background-image: linear-gradient(180deg, #180F4A, #090422, black);
+  position: relative;
+}
+.footer p {
+  color: white;
+}
+.footer p:nth-of-type(1) {
+  font-size: 30px;
+  font-family: "Lobster", Arial, sans-serif;
+  font-weight: bold;
+}
+.footer p:nth-of-type(3) {
+  position: absolute;
+  bottom: 40px;
+  font-weight: bold;
+}
+
+.gotothetop {
+  color: black;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+}
+.gotothetop img {
+  display: inline-block;
+  width: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
