@@ -13,7 +13,7 @@
 
 <img src="./github/imagem.gif">
 
-<p align="center" dir="auto"><a taget="blank" href="http://onebitx-lucasbxd.netlify.app/index.html" >Clique aqui para abrir o site</a><p> 
+<p align="center" dir="auto"><a taget="blank" href="https://lucasbxd.github.io/Landing-Page-Agenciafake/" >Clique aqui para abrir o site</a><p> 
 
 <h2 id="sobre">📍 Sobre</h2>
 <p>Tem o objetivo de treinar o posicionamento dos elementos com flexbox e position, exercitar efeitos ao passar o mouse no elemento. Além de utilizar variáveis e organizar o código por pastas.</p>

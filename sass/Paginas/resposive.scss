@@ -2,6 +2,7 @@
   .header{
     position: relative;
     flex-direction: column;
+    gap:30px;
     .header-logo{
       padding-top:20px;
     }
@@ -58,6 +59,7 @@
 
 @media only screen and (max-width: 438px){
   .header{
+    gap:0px;
     .navbar{
       display: flex;
       flex-direction: column;
