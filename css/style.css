@@ -11,14 +11,14 @@ body {
 
 .header {
   position: fixed;
-  width: 80%;
+  width: 100%;
   background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  margin: 0px 10% 0px 10%;
+  padding: 0px 10%;
 }
 .header .header-logo {
   color: #180F4A;
@@ -94,10 +94,10 @@ body {
 }
 .headline .img-content {
   width: 50%;
-  text-align: center;
+  text-align: end;
 }
 .headline .img-content img {
-  display: inline-block;
+  display: inline;
 }
 
 .main-content {
@@ -177,6 +177,72 @@ body {
 .gotothetop img {
   display: inline-block;
   width: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .header {
+    position: relative;
+    flex-direction: column;
+  }
+  .header .header-logo {
+    padding-top: 20px;
+  }
+  .header .navbar #contactbtn {
+    margin-left: 0px;
+  }
+  .headline {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+  .headline .text-content {
+    margin: 50px 0px;
+    width: auto;
+    text-align: center;
+  }
+  .headline .text-content p {
+    text-align: center;
+    line-height: 25px;
+  }
+  .headline .img-content {
+    width: 100%;
+    text-align: center;
+  }
+  .headline .img-content img {
+    width: 100%;
+    display: block;
+  }
+  .main-content {
+    margin: 50px 10%;
+  }
+  .main-content h1 {
+    padding-bottom: 50px;
+  }
+  .main-content .cards {
+    flex-direction: column;
+    gap: 20px 0px;
+  }
+}
+@media only screen and (max-width: 656px) {
+  .header .navbar #contactbtn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 438px) {
+  .header .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .navbar a {
+    padding: 0px;
+  }
+  .headline .text-content h2:nth-of-type(1) {
+    padding-top: 20px;
+  }
+  .headline .text-content h2:nth-of-type(2) {
+    font-size: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
