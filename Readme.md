@@ -19,7 +19,7 @@
 <p align="center" dir="auto"><a taget="blank" href="https://lucasbxd.github.io/Landing-Page-Agenciafake/" >Clique aqui para abrir o site</a><p> 
 
 <h2 id="sobre">📍 Sobre</h2>
-<p>Tem o objetivo de treinar o posicionamento dos elementos com flexbox e position, exercitar efeitos ao passar o mouse no elemento. Além de utilizar variáveis e organizar o código por pastas.</p>
+<p>Tem o objetivo de treinar o posicionamento dos elementos com flexbox e position, praticar a parte de responsividade, exercitar efeitos ao passar o mouse no elemento. Além de utilizar variáveis e organizar o código por pastas.</p>
 
 <h2 id="tecnologias">🛠 Tecnologias</h2>
 <p>As seguintes ferramentas foram utilizadas para a construção do projeto:</p>
